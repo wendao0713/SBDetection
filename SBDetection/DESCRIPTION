@@ -1,0 +1,14 @@
+Package: SBDetection
+Type: Package
+Title: Statistical Breakpoint Detection in Time Series Data
+Version: 1.0
+Date: 2024-01-07
+Authors: Qu Jin, Jinxin Liu, Ziyi Yao (in alphabetical order)
+Maintainer: Qu Jin, Jinxin Liu, Ziyi Yao(in alphabetical order)
+Description: The SBDetect package offers comprehensive tools for detecting statistical breakpoints in time series data. It implements various methods, including LASSO-based breakpoint detection, ARMA model fitting with breakpoints, and backward selection procedures. Functions like 'var_lasso_brk', 'break_var', 'backward_sel', and 'second_step' provide a robust approach to identify changes in the underlying data structure, which can be crucial for time series analysis in finance, economics, environmental studies, and more. The package also includes utility functions like 'soft', 'pred', and 'soft_full' to support the main methods. Advanced users can customize their analysis using a wide range of parameters and options.
+License: GNU GPLv3
+Imports: Rcpp (>= 1.0.8)
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.2.3
+Encoding: UTF-8
+
